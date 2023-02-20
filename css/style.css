@@ -1,0 +1,109 @@
+header{
+    max-width: 90%;
+    margin: 10px auto;
+}
+
+main{
+    max-width: 85%;
+    margin: auto;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: black;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: white;;
+    color: black;
+}
+
+.games{
+    float: left;
+}
+.picker{
+    float: right;
+}
+
+.bottomTop{
+    border-color: solid black;
+    border-style: solid;
+    border-width: 2px 0px;
+}
+
+.border{
+    border-color: solid black;
+    border-style: solid;
+    border-width: 2px 4px;
+}
+
+.info{
+    display: flex;
+}
+
+.left{
+    width: 75%;
+    padding: 0px 5px;
+}
+
+.left div{
+    margin: 5px;;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    white-space: pre-line;
+    width: 25%;
+
+    margin: 21.440px 5px 10px 5px;
+    padding: 5px
+}
+
+.tags{
+    display: flex;
+}
+
+.tags p{
+    margin: 5px;
+    padding: 2px;
+    border: 1px solid black;
+    background-color: lightgrey;
+}
+
+.images img{
+    width: 21%;
+    margin: 5px 26px;
+    border: solid black;
+}
+
+.eisen{
+    padding: 0px 10px;
+}
+
+.eisen li{
+    list-style-type: none;
+}
+
+.recenties{
+    padding: 0px 10px;
+}
+
+.recenties dl *{
+    padding-left: 40px;
+    padding-bottom: 5px;
+}
