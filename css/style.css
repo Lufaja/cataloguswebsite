@@ -4,8 +4,16 @@ header{
 }
 
 main{
-    max-width: 85%;
+    max-width: 1000px;
     margin: auto;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 23px;
 }
 
 .topnav {
@@ -63,6 +71,7 @@ main{
 .left div{
     margin: 5px;;
 }
+
 .right{
     display: flex;
     flex-direction: column;
@@ -70,7 +79,7 @@ main{
     white-space: pre-line;
     width: 25%;
 
-    margin: 21.440px 5px 10px 5px;
+    margin: 15.410px 5px 10px 5px;
     padding: 5px
 }
 
@@ -86,7 +95,7 @@ main{
 }
 
 .images img{
-    width: 21%;
+    width: 30%;
     margin: 5px 26px;
     border: solid black;
 }
@@ -106,4 +115,5 @@ main{
 .recenties dl *{
     padding-left: 40px;
     padding-bottom: 5px;
+    font-family: serif;
 }
